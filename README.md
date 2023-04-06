@@ -1,9 +1,3 @@
-
-
- <h3><a href="https://allan-carlos.github.io/Templates/">Clique aqui e você será redireciado para o site<a></h3>
-
- 
-
 # Templates
 
  Este site foi criado seguindo o template do site [jolly-kalam-23776e.netlify.app](https://jolly-kalam-23776e.netlify.ap). Acesse todos os projetos que fiz de forma rápida e fácil.
