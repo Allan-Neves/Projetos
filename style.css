@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Nunito:wght@300&display=swap');
+
+:root {
+    --cor-links: rgba(255, 255, 255, 0.664);
+    --cor-sombras: rgb(73, 73, 73);
+    --cor-texto: rgb(238, 238, 238);
+
+    --font-titulos: 'Alkatra', 'cursive';
+    --font-texto: 'Nunito', sans-serif;
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav, ul {
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 0px 17px;
+    transition: all 0.7s;
+}
+
+h1 {
+    font-family: var(--font-titulos);
+    color: white;
+    transition: all 0.7s;
+}
+
+h1:hover {
+    transform: scale(1.12);
+    cursor: pointer;
+    color: var(--cor-links);
+    text-shadow: 1px 1px 3px var(--cor-sombras);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-titulos);
+    font-size: 20px;
+}
+
+li:hover {
+    transform: scale(1.12);
+    cursor: pointer;
+    color: var(--cor-links);
+    text-shadow: 1px 1px 3px var(--cor-sombras);
+}
+
+section {
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: flex-start; /* Alinhamento vertical */
+}
+
+.card {
+    margin: 5px;
+    text-align: center;
+    width: 350px;
+    background-color: gray;
+    padding: 10px;
+}
+
+.card img {
+    width: 350px;
+}
+
+.card-title h3 {
+    margin: 0;
+    padding: 7px 0px;
+    color: var(--cor-texto)
+}
+
+.card-link a {
+    transition: all 0.7s;
+    text-decoration: underline;
+}
+
+.card-link a:hover {
+    color: black;
+}
