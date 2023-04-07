@@ -27,6 +27,7 @@ li {
     list-style: none;
     padding: 0px 17px;
     transition: all 0.7s;
+    text-align: center;
 }
 
 h1 {
@@ -90,4 +91,10 @@ section {
 
 .card-link a:hover {
     color: black;
+}
+
+@media screen and (max-width: 371px) {
+    nav, ul {
+        flex-direction: column;
+    }
 }
