@@ -13,6 +13,7 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 nav, ul {
@@ -43,7 +44,7 @@ h1:hover {
     text-shadow: 1px 1px 3px var(--cor-sombras);
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     font-family: var(--font-titulos);
@@ -67,30 +68,49 @@ section {
 }
 
 .card {
-    margin: 5px;
-    text-align: center;
-    width: 350px;
-    background-color: gray;
-    padding: 10px;
+    width: 360px;
+    height: 400px;
+    margin: 10px;
+    padding: 12px 6px;
+
+    border-radius: 50px;
+    background: #e0e0e0;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
+    margin: 0px 3px;
     width: 350px;
+    border-radius: 50px 50px 0 0;
+    border: 3px solid black;
 }
 
 .card-title h3 {
-    margin: 0;
+    font-size: 200%;
     padding: 7px 0px;
-    color: var(--cor-texto)
-}
-
-.card-link a {
-    transition: all 0.7s;
-    text-decoration: underline;
-}
-
-.card-link a:hover {
     color: black;
+    font-family: var(--font-titulos);
+}
+
+.card-link a{
+    color: black;
+}
+
+.card-link {
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: var(--font-texto);
+    transition: all 0.7s;
+}
+
+.card-link:hover {
+    transform: scale(1.15);
+    font-weight: bold;
 }
 
 @media screen and (max-width: 371px) {
