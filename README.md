@@ -1,6 +1,6 @@
 # Templates
 
- Este site foi criado seguindo o template do site [jolly-kalam-23776e.netlify.app](https://jolly-kalam-23776e.netlify.ap). Acesse todos os projetos que fiz de forma rápida e fácil.
+ Este site foi criado seguindo o template do site [jolly-kalam-23776e.netlify.app](https://jolly-kalam-23776e.netlify.app). Acesse todos os projetos que fiz de forma rápida e fácil.
 
 ![Screenshot do Site](https://imgur.com/updiBOm.png)
 
