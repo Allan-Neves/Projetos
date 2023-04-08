@@ -16,11 +16,17 @@ body, html {
     background-color: black;
 }
 
-nav, ul {
-    background-color: gray;
+nav {
+    margin: 10px 10px 0 10px;
+}
+
+nav ul {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(61, 61, 61);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -28,20 +34,6 @@ li {
     list-style: none;
     padding: 0px 17px;
     transition: all 0.7s;
-    text-align: center;
-}
-
-h1 {
-    font-family: var(--font-titulos);
-    color: white;
-    transition: all 0.7s;
-}
-
-h1:hover {
-    transform: scale(1.12);
-    cursor: pointer;
-    color: var(--cor-links);
-    text-shadow: 1px 1px 3px var(--cor-sombras);
 }
 
 nav a {
@@ -49,13 +41,52 @@ nav a {
     color: white;
     font-family: var(--font-titulos);
     font-size: 20px;
+    transition: all 0.7s;
+    display: flex;
 }
 
 li:hover {
     transform: scale(1.12);
+}
+
+a:hover {
     cursor: pointer;
-    color: var(--cor-links);
-    text-shadow: 1px 1px 3px var(--cor-sombras);
+}
+
+.github:hover {
+    color: black;
+}
+
+.e-mail:hover {
+    background-image: linear-gradient(to right, blue, brown, red, yellow, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.linkedin:hover {
+    background-image: linear-gradient(to right, #0A66C2, #FFFFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.instagram:hover {
+    background-image: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040,  #F77737, #FCAF45, #FFDC80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.whatsapp:hover {
+    background-image: linear-gradient(to right, #5FFC7B, #28D146, #FFFFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
 
 section {
@@ -72,9 +103,17 @@ section {
     height: 400px;
     margin: 10px;
     padding: 12px 6px;
-
     border-radius: 50px;
-    background: #e0e0e0;
+    background-color: #b1b1b1;
+    box-shadow: 2px 2px 20px gray;
+    transition: all 0.7s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 0px;
+    transform: scale(1.07);
+    margin: 10px 20px;
+    background-color: white;
 }
 
 .card-content {
@@ -91,13 +130,22 @@ section {
 }
 
 .card-title h3 {
-    font-size: 200%;
+    font-size: 30px;
+    margin: 10px 0px 0px 0px;
     padding: 7px 0px;
     color: black;
     font-family: var(--font-titulos);
+    transition: all 0.7s;
 }
 
-.card-link a{
+.card-description p {
+    margin: 0 0 20px 0;
+    text-align: center;
+    width: 320px;
+    font-family: var(--font-texto);
+}
+
+.card-link a {
     color: black;
 }
 
@@ -113,8 +161,19 @@ section {
     font-weight: bold;
 }
 
-@media screen and (max-width: 371px) {
-    nav, ul {
-        flex-direction: column;
+@media screen and (max-width: 400px) {
+    .card {
+        width: 340px;
+        height: 400px;
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+    }
+
+    .card img {
+        width: 330px;
+        margin: 0 2px;
     }
 }
+
