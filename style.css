@@ -14,6 +14,7 @@ body, html {
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    font-size: 62.5%;
 }
 
 nav {
@@ -44,11 +45,11 @@ nav a {
     color: black;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.5rem;
     transition: all .5s ease;
     text-decoration: none;
     font-family: var(--font-titulos);
-    font-size: 20px;
+    font-size: 2rem;
     display: flex;
     padding: 10px 20px;
 }
@@ -106,7 +107,7 @@ nav a:hover {
 }
 
 .card-title h3 {
-    font-size: 30px;
+    font-size: 3rem;
     margin: 10px 0px 0px 0px;
     padding: 7px 0px;
     color: black;
@@ -119,6 +120,7 @@ nav a:hover {
     text-align: center;
     width: 320px;
     font-family: var(--font-texto);
+    font-size: 1.6rem;
 }
 
 .card-link a {
@@ -127,7 +129,7 @@ nav a:hover {
 
 .card-link {
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: var(--font-texto);
     transition: all 0.7s;
 }
