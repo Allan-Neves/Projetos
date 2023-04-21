@@ -14,6 +14,7 @@ body, html {
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
 }
 
@@ -137,6 +138,13 @@ nav a:hover {
 .card-link:hover {
     transform: scale(1.15);
     font-weight: bold;
+}
+
+#notification {
+    padding: 0 15px;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 400px) {
