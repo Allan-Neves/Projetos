@@ -5,70 +5,27 @@
     --cor-sombras: rgb(73, 73, 73);
     --cor-texto: rgb(238, 238, 238);
 
-    --font-titulos: 'Alkatra', 'cursive';
+    --font-titulos: 'Alkatra', cursive;
     --font-texto: 'Nunito', sans-serif;
-  }
+}
 
 body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
 }
 
-nav {
-    margin: 10px 10px 0 10px;
-}
-
-nav ul {
-    padding: 7px 0;
-    background-color: transparent;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-li {
-    border-radius: 50px;
-    border: 0;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    list-style: none;
-    padding: 0 17px;
-    margin: 3px 20px;
-    transition: all 0.7s;
-}
-
-nav a {
-    color: black;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    transition: all .5s ease;
-    text-decoration: none;
-    font-family: var(--font-titulos);
-    font-size: 2rem;
-    display: flex;
-    padding: 10px 20px;
-}
-
-li:hover {
-    transform: scale(1.12);
-    letter-spacing: 3px;
-    background-color: hsl(0, 0%, 66%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(110, 110, 110) 0px 7px 29px 0px;
-}
-
-nav a:hover {
-    color: white;
+#notification {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 3rem;
 }
 
 .container {
-    margin: 10px 0px;
+    max-width: 2000px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -78,20 +35,21 @@ nav a:hover {
 
 .card {
     width: 360px;
-    height: 400px;
-    margin: 10px;
-    padding: 12px 6px;
-    border-radius: 50px 0px 50px 0;
-    background-color: #b1b1b1;
-    box-shadow: 2px 2px 20px gray;
+    max-height: 500px;
+    margin: 20px 14px;
+    padding: 5px 3px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.438);
     transition: all 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 0px;
+    box-shadow: 0 0 40px rgba(19, 107, 221, 0.63);
     transform: scale(1.07);
-    margin: 10px 20px;
-    background-color: white;
 }
 
 .card-content {
@@ -101,65 +59,39 @@ nav a:hover {
 }
 
 .card img {
-    margin: 0px 3px;
-    width: 350px;
-    border-radius: 50px 0px 50px 0;
-    border: 3px solid black;
+    text-align: center;
+    width: 98%;
+    border-radius: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
 }
 
 .card-title h3 {
     font-size: 3rem;
-    margin: 10px 0px 0px 0px;
-    padding: 7px 0px;
+    margin: 10px 0;
+    padding: 7px 0;
     color: black;
     font-family: var(--font-titulos);
     transition: all 0.7s;
 }
 
 .card-description p {
-    margin: 0 0 20px 0;
+    padding: 0 5px;
     text-align: center;
-    width: 320px;
+    height: 80px;
     font-family: var(--font-texto);
     font-size: 1.6rem;
 }
 
 .card-link a {
-    color: black;
-}
-
-.card-link {
+    color: #000;
     text-decoration: underline;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: var(--font-texto);
     transition: all 0.7s;
 }
 
-.card-link:hover {
-    transform: scale(1.15);
-    font-weight: bold;
+.card-technology {
+    padding-top: 12px;
+    font-size: 1.4rem;
+    color: rgb(0, 60, 255);
 }
-
-#notification {
-    padding: 0 15px;
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-}
-
-@media screen and (max-width: 400px) {
-    .card {
-        width: 340px;
-        height: 400px;
-    }
-
-    .card:hover {
-        transform: scale(1.02);
-    }
-
-    .card img {
-        width: 330px;
-        margin: 0 2px;
-    }
-}
-
