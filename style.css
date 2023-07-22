@@ -1,26 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Nunito:wght@300&display=swap');
-
 :root {
     --cor-links: rgba(255, 255, 255, 0.664);
     --cor-sombras: rgb(73, 73, 73);
     --cor-texto: rgb(238, 238, 238);
-
-    --font-titulos: 'Alkatra', cursive;
-    --font-texto: 'Nunito', sans-serif;
 }
 
-body, html {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
 }
 
-#notification {
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-size: 3rem;
+body {
+    background-color: #fafafa;
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a img {
+    margin: 15px 23px;
+    width: 45px;
+    transition: all 0.4s;
+}
+
+header a img:hover {
+    transform: scale(1.1);
 }
 
 .container {
@@ -30,68 +41,99 @@ body, html {
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .card {
-    width: 360px;
-    max-height: 500px;
-    margin: 20px 14px;
-    padding: 5px 3px;
-    border-radius: 15px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.438);
+    width: 405px;
+    height: 435px;
+    margin: 20px 7px;
+    border-radius: 10px;
+    border: 1px solid rgba(95, 95, 95, 0.171);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
     transition: all 0.7s;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .card:hover {
-    box-shadow: 0 0 40px rgba(19, 107, 221, 0.63);
-    transform: scale(1.07);
-}
-
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.479);
 }
 
 .card img {
-    text-align: center;
-    width: 98%;
-    border-radius: 13px;
-    border: 1px solid rgba(0, 0, 0, 0.068);
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #dbe5e6;
+    transition: all 0.3s;
 }
 
-.card-title h3 {
-    font-size: 3rem;
-    margin: 10px 0;
-    padding: 7px 0;
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    margin: 20px;
+}
+
+.card-title h3 a {
+    font-weight: 400;
+    font-size: 2.4rem;
+    text-decoration: none;
+    padding: 5px 0 0 0;
     color: black;
     font-family: var(--font-titulos);
-    transition: all 0.7s;
 }
 
-.card-description p {
-    padding: 0 5px;
-    text-align: center;
-    height: 80px;
-    font-family: var(--font-texto);
-    font-size: 1.6rem;
-}
-
-.card-link a {
-    color: #000;
+.card-title h3 a:hover {
     text-decoration: underline;
-    font-size: 2rem;
-    font-family: var(--font-texto);
-    transition: all 0.7s;
 }
 
 .card-technology {
-    padding-top: 12px;
-    font-size: 1.4rem;
-    color: rgb(0, 60, 255);
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 8px 0 15px 0;
+}
+
+.card-technology span {
+    margin-right: 10px;
+}
+
+.html {
+    color: #ee632a;
+}
+
+.css {
+    color: #3589d3;
+}
+
+.js {
+    color: #edd61a;
+}
+
+.html:hover,
+.css:hover,
+.js:hover {
+    text-decoration: underline;
+    cursor: context-menu;
+}
+
+.card-description p {
+    color: #737488;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+#notification {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+@media screen and (max-width: 330px) {
+
+    .card {
+        overflow: auto;
+    }
 }
