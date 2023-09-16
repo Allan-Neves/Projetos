@@ -1,7 +1,5 @@
 # Templates
 
-![Screenshot do Site](https://imgur.com/NRYgJcZ.png)
-
 ## Demo
 
 [Clique aqui](https://allan-carlos.github.io/Templates/) e você será redirecionado(a) para o site.
@@ -28,3 +26,5 @@ Para executar o projeto, basta fazer o download ou clonar este repositório em s
 ## Licença
 
 Este projeto é licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
+
+![Screenshot do Site](https://imgur.com/qVB0UnV.png)
