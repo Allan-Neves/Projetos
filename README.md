@@ -21,7 +21,7 @@ Para executar o projeto, basta fazer o download ou clonar este repositório em s
 
 ## Estrutura do Projeto
 
-- `style.css`: Arquivo CSS que contém os estilos do site.
+- `assets`: Diretõrio onde contem os arquivos de estilo, e os arquivos de gera~c"ao dos cards.
 - `images/`: Diretório onde se encontra `todas`as mídias utilizadas no projeto.
 - `index.html`: Arquivo príncipal do site.
 
