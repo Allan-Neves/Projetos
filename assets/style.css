@@ -10,6 +10,8 @@ body {
   background-color: #fafafa;
 }
 
+
+/* HEADER */
 .header-content {
   height: fit-content;
   background-color: #111;
@@ -86,7 +88,7 @@ body {
 }
 
 
-
+/* CARDS */
 #container {
   max-width: 2000px;
   margin: auto;
@@ -103,14 +105,15 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(95, 95, 95, 0.171);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
-  transition: all 0.7s;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.479);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.459);
+  transform: scale(1.02);
 }
 
 .card img {
@@ -190,6 +193,8 @@ body {
   font-size: 1.6rem;
 }
 
+
+/* NOTIFICAÇÃO */
 #notification {
   color: rgb(255, 0, 0);
   text-align: center;
@@ -197,8 +202,8 @@ body {
   margin: 10px;
 }
 
-@media screen and (max-width: 330px) {
 
+@media screen and (max-width: 330px) {
   .card {
     overflow: auto;
   }
