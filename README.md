@@ -12,7 +12,7 @@
 
 ## Aprendizados
 
-Neste projeto, consegui aplicar um pouco das minhas habilidades em flex-box e variáveis no `CSS`. Também consegui aplicar coisas como **objetos**, loops, e várias outras coisas com JavaScript!
+Neste projeto, consegui aplicar um pouco das minhas habilidades em flex-box e variáveis no `CSS`. Também consegui aplicar coisas como **objetos**, **loops**, e várias outras coisas com JavaScript!
 
 ## Como Executar o Projeto
 
