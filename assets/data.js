@@ -1,5 +1,14 @@
 var cardData = [
   {
+    imgSrc: "images/social-links.png",
+    imgAlt: "Social Links",
+    title: "Social Links",
+    titleLink: "https://allan-carlos.vercel.app",
+    sourceLink: "https://github.com/Allan-Carlos/Social-Links",
+    technology: ["HTML", "CSS"],
+    description: "Encontre aqui todas as minhas redes sociais! Um site com um design simples e bonito, você deveria dar uma espiada."
+  },
+  {
     imgSrc: "images/churrascometro.png",
     imgAlt: "Churrascômetro",
     title: "Churrascômetro",
