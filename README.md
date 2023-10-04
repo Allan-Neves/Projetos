@@ -2,16 +2,17 @@
 
 ## Demo
 
-[Clique aqui](https://allan-carlos.github.io/Templates/) e você será redirecionado(a) para o site.
+[Clique aqui](https://templates-allan.vercel.app/) e você será redirecionado(a) para o site.
 
 ## Tecnologias Usadas
 
 - HTML
 - CSS
+- JS
 
 ## Aprendizados
 
-Neste projeto, consegui aplicar um pouco das minhas habilidades em flex-box e variáveis no `CSS`.
+Neste projeto, consegui aplicar um pouco das minhas habilidades em flex-box e variáveis no `CSS`. Também consegui aplicar coisas como **objetos**, **loops**, e várias outras coisas com JavaScript!
 
 ## Como Executar o Projeto
 
@@ -19,7 +20,7 @@ Para executar o projeto, basta fazer o download ou clonar este repositório em s
 
 ## Estrutura do Projeto
 
-- `assets`: Diretõrio onde contem os arquivos de estilo, e os arquivos de gera~c"ao dos cards.
+- `assets`: Diretõrio onde contem os arquivos de estilo, e os arquivos de geração dos cards.
 - `images/`: Diretório onde se encontra `todas`as mídias utilizadas no projeto.
 - `index.html`: Arquivo príncipal do site.
 
