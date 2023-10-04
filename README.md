@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Clique aqui](https://allan-carlos.github.io/Templates/) e você será redirecionado(a) para o site.
+[Clique aqui](https://templates-allan.vercel.app/) e você será redirecionado(a) para o site.
 
 ## Tecnologias Usadas
 
