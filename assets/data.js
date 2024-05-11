@@ -1,5 +1,14 @@
 var cardData = [
   {
+    imgSrc: "images/madame-chocoberry.png",
+    imgAlt: "Madame Chocoberry",
+    title: "Madame Chocoberry",
+    titleLink: "https://madamechocoberry.vercel.app/",
+    sourceLink: "https://github.com/Allan-Neves/Madame-Chocoberry",
+    technology: ["HTML", "CSS", "JS"],
+    description: "Projeto feito puramente por mim, aprecie as delícias feitas pela Madame Chocoberry!"
+  },
+  {
     imgSrc: "images/top-links.png",
     imgAlt: "Top Links",
     title: "Top Links",
