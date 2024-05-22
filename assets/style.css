@@ -6,92 +6,9 @@
   font-size: 62.5%;
 }
 
-body {
-  background-color: #fafafa;
-}
-
-
-/* HEADER */
-.header-content {
-  height: fit-content;
-  background-color: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px 18px;
-  gap: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
-}
-
-.socialContainer {
-  width: 52px;
-  height: 52px;
-  background-color: rgb(44, 44, 44);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition-duration: .3s;
-}
-
-/* instagram*/
-.containerOne:hover {
-  background-color: #E1306C;
-  transition-duration: .3s;
-}
-
-/* twitter*/
-.containerTwo:hover {
-  background-color: #00acee;
-  transition-duration: .3s;
-}
-
-/* linkedin*/
-.containerThree:hover {
-  background-color: #0072b1;
-  transition-duration: .3s;
-}
-
-/* Whatsapp*/
-.containerFour:hover {
-  background-color: #25D366;
-  transition-duration: .3s;
-}
-
-.socialContainer:active {
-  transform: scale(0.9);
-  transition-duration: .3s;
-}
-
-.socialSvg {
-  width: 17px;
-}
-
-.socialSvg path {
-  fill: rgb(255, 255, 255);
-}
-
-.socialContainer:hover .socialSvg {
-  animation: slide-in-top 0.3s both;
-}
-
-@keyframes slide-in-top {
-  0% {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-
 /* CARDS */
 #container {
-  max-width: 2000px;
-  margin: auto;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
@@ -100,20 +17,17 @@ body {
 
 .card {
   width: 405px;
-  height: 435px;
-  margin: 20px 7px;
+  margin: 20px 10px;
   border-radius: 10px;
   border: 1px solid rgba(95, 95, 95, 0.171);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.459);
-  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
 }
 
 .card img {
@@ -124,12 +38,8 @@ body {
   transition: all 0.3s;
 }
 
-.card img:hover {
-  transform: scale(1.05);
-}
-
 .card-content {
-  margin: 20px;
+  padding: 20px;
 }
 
 .card-title {
@@ -139,16 +49,11 @@ body {
 }
 
 .card-title h3 a {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2.4rem;
   text-decoration: none;
   padding: 5px 0 0 0;
   color: #000;
-}
-
-.card-title h3 a:hover,
-.card-title h4 a:hover {
-  text-decoration: underline;
 }
 
 .card-title h4 a {
@@ -158,10 +63,15 @@ body {
   color: #333;
 }
 
+.card-title h3 a:hover,
+.card-title h4 a:hover {
+  text-decoration: underline;
+}
+
 .card-technology {
   font-size: 2.4rem;
   font-weight: 700;
-  padding: 8px 0 15px 0;
+  padding: 8px 0 0 0;
 }
 
 .card-technology span {
@@ -188,7 +98,7 @@ body {
 }
 
 .card-description p {
-  color: #737488;
+  color: #464545;
   margin-bottom: 5px;
   font-size: 1.6rem;
 }
